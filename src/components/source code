@@ -1,0 +1,81 @@
+import Navbar from "./components/Navbar.jsx";
+import {Routes ,Route} from "react-router-dom";
+import Home from "./pages/Home.jsx";
+import Login from "./pages/Login.jsx";
+import Profile from "./pages/profile.jsx";
+import Layout from "./pages/Layout.jsx";
+
+
+import "./App.css"
+function App() {
+  return (
+    <>
+      <Navbar />
+
+    
+      <Routes>
+        <Route element={<Layout/>}>
+          <Route path="/" element={<Home />} />
+          <Route path="/profile" element={<Profile />} />
+        </Route>
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </>
+  );
+}
+
+export default App;
+
+
+
+import logo from "../assets/logo.svg";
+import "./Navbar.css";
+import { IoMenu } from "react-icons/io5";
+
+export default function Navbar() {
+  return (
+    <div className="navbar">
+      <IoMenu style={{ color: "black",fontSize:"35px" }} />
+      <img src={logo} className="logo" />
+    </div>
+  );
+}
+
+
+import "./Sidebar.css";
+
+
+export default function () {
+    return (
+    <div>
+        < aside className = "sidebar" >
+      <div className="sidebar-logo">
+        <h2>Logo</h2>
+      </div>
+
+      <nav className="sidebar-menu">
+        <a href="/" className="sidebar-item active">Home</a>
+        <a href="/about" className="sidebar-item">About</a>
+        <a href="/services" className="sidebar-item">Services</a>
+        <a href="/contact" className="sidebar-item">Contact</a>
+      </nav>
+    </aside >
+    </div>
+    )
+}
+
+
+
+import Sidebar from "../components/Sidebar.jsx";
+import { Outlet } from "react-router-dom";
+
+export default function Layout(){
+      return (
+    <div>
+        
+        <Sidebar/>
+        <Outlet/>
+      
+    </div>
+  )
+}

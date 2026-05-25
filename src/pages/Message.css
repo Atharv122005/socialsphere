@@ -1,0 +1,96 @@
+.dm-container {
+  display: flex;
+  background: white;
+  height: 100vh;
+  width:100%;
+}
+
+.dm-left {
+  display: flex;
+  border-right:1px solid black;
+  flex-direction:column;
+  justify-content: flex-start; 
+  align-items: stretch;
+  background: rgb(235, 235, 235);
+  width:25%;
+}
+
+.dm-left-header {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.dm-search-box input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.dm-note-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.note-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.dm-labels {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-right:6px;
+}
+.dm-labels input{
+    padding:6px;
+    border-radius:12px;
+}
+
+.active-label {
+  font-weight: 600;
+}
+
+.dm-empty-info {
+  font-size: 13px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.dm-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:80px; ;
+}
+.empty-chat {
+  text-align: center;
+}
+
+.empty-icon {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.send-button {
+  margin-top: 10px;
+  background: #3897f0;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background: #3183d6;
+}

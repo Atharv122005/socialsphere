@@ -1,0 +1,44 @@
+.explore {
+  width: 100%;
+  padding: 0;
+}
+
+.explore-content {
+  width: 100%;
+  margin-top:150px;
+}
+
+.explore-content input {
+  width: 35%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius:15px;
+}
+
+.explore-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  width: 100%;
+  padding: 4px;
+}
+
+.explore-post {
+  margin: 0;
+  padding: 0;
+}
+
+.explore-post p {
+  display: none;
+}
+
+.explore-post-images {
+  display: block;
+}
+
+.explore-post-images img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
