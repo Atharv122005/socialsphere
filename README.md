@@ -7,11 +7,29 @@
 A modern and responsive social media web application focused on clean UI, smooth user experience, and scalable frontend architecture.
 
 <br/>
+<p align="center">
 
-<img src="https://img.shields.io/badge/React-Frontend-blue?style=for-the-badge&logo=react" />
-<img src="https://img.shields.io/badge/Vite-Build_Tool-purple?style=for-the-badge&logo=vite" />
-<img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript" />
-<img src="https://img.shields.io/badge/Responsive-UI-success?style=for-the-badge" />
+<a href="https://react.dev/" target="_blank">
+  <img src="https://skillicons.dev/icons?i=react" />
+</a>
+
+<a href="https://vitejs.dev/" target="_blank">
+  <img src="https://skillicons.dev/icons?i=vite" />
+</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+  <img src="https://skillicons.dev/icons?i=javascript" />
+</a>
+
+<a href="https://nodejs.org/" target="_blank">
+  <img src="https://skillicons.dev/icons?i=nodejs" />
+</a>
+
+<a href="https://www.mongodb.com/" target="_blank">
+  <img src="https://skillicons.dev/icons?i=mongodb" />
+</a>
+
+</p>
 
 </div>
 
